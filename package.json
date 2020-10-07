@@ -1,0 +1,42 @@
+{
+  "name": "@achinchen/eslint-config",
+  "version": "0.0.1-9",
+  "description": "lint config for common projects",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "main": "typescript.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/achinchen/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "eslint-config",
+    "prettier-config"
+  ],
+  "author": "Chin Chen",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/achinchen/eslint-config/issues"
+  },
+  "homepage": "https://github.com/achinchen/eslint-config#readme",
+  "peerDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/eslint-parser": "^7.11.5",
+    "@babel/eslint-plugin": "^7.11.5",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jest-dom": "^3.2.3",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-testing-library": "^3.9.0",
+    "prettier": "^2.1.2"
+  }
+}
