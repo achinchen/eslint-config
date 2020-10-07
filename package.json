@@ -1,0 +1,28 @@
+{
+  "name": "@achinchen/eslint-config",
+  "version": "0.0.1-0",
+  "description": "lint config for common projects",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "main": "dist/javascript.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/achinchen/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "prettier",
+    "eslint-config",
+    "prettier-config"
+  ],
+  "author": "Chin Chen",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/achinchen/eslint-config/issues"
+  },
+  "homepage": "https://github.com/achinchen/eslint-config#readme"
+}
