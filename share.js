@@ -1,14 +1,14 @@
 module.exports = {
   extends: [
+    'plugin:prettier/recommended',
     'prettier/react',
     'plugin:react/recommended',
-    'plugin:jsx-a11y/recommended',
-    'prettier',
-    'prettier/react',
-    'plugin:prettier/recommended'
+    'plugin:jsx-a11y/recommended'
   ],
   plugins: ['react', 'react-hooks', 'jsx-a11y'],
   rules: {
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'prettier/prettier': [
@@ -16,7 +16,7 @@ module.exports = {
       {
         singleQuote: true,
         trailingComma: 'none',
-        wrapWidth: 100
+        wrapWidth: 80
       }
     ]
   }
