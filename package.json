@@ -1,6 +1,6 @@
 {
   "name": "@achinchen/eslint-config",
-  "version": "0.0.4-1",
+  "version": "0.0.4",
   "description": "lint config for common projects",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
