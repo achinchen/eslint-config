@@ -2,10 +2,7 @@ module.exports = {
   extends: [
     'plugin:prettier/recommended',
     'prettier/react',
-    'plugin:react/recommended',
-    'plugin:jest/recommended',
-    'plugin:jest-dom/recommended',
-    'plugin:testing-library/react',
+    'plugin:react/recommended'
   ],
   plugins: ['react', 'react-hooks', 'jsx-a11y'],
   rules: {
